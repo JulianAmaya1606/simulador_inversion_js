@@ -1,28 +1,25 @@
-@font-face {
-    font-family: 'Montserrat'; 
-    src: url('Montserrat-VariableFont_wght.ttf') format('truetype'); /* Ruta relativa o absoluta de tu archivo .ttf */
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 #simulator{
     width: 100%;
     max-width: 1300px;
     padding: 50px 60px;
-    border: 1px solid #dde0e8;
+    border: 1px solid #4882f0;
     margin: 100px auto;
-    box-shadow: 0 0 3em #dfdfdf;
+    box-shadow: 0 0 3em #4882f0;
 }
 
 h1{
     font-size: 34px;
     font-weight: 700;
-    color: #1c9882;
+    color: #4882f0;
     text-align: center;
     padding-bottom: 50px;
     border-bottom: 2px solid #7a93ab;
@@ -40,7 +37,7 @@ h1{
 }
 
 h2{
-    color: #202d37;
+    color: #4882f0;
     font-weight: 700;
     font-size: 28px;
     margin-bottom: 14px;
@@ -79,7 +76,7 @@ form{
 .group-data label{ 
     display: block;
     margin-bottom: 10px;
-    color: #202d37;
+    color: #4882f0;
 }
 .group-data input,
 .group-data select{
@@ -92,24 +89,24 @@ form button{
     display: block;
     width: 97%;
     padding: 14px 80px;
-    background: #1c9882;
-    color: #fff;
-    border: 1px solid #1c9882;
+    background: #fff;
+    color: #4882f0;
+    border: 1px solid #4882f0;
     transition: .4s;
     cursor: pointer;
 }
 
 form button:hover{
-    background: #f5f8fa;
-    border: 1px solid #1c9882;
-    color: #1c9882;
+    background: #4882f0;
+    border: 1px solid #4882f0;
+    color: #fff;
 }
 
 input, select{
     padding: 14px 30px;
     background: #f5f8fa;
     border: 0;
-    border-bottom: 2px solid #7a93ab;
+    border-bottom: 2px solid #4882f0;
     outline: none;
 }
 input::placeholder {
