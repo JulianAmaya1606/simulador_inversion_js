@@ -16,7 +16,10 @@ function simulador() {
     //variables para las realizar los calculos
     let ganancia = 0
     let total = 0
-
+    if (nombresApellidos=="" || email=="" || monto=="" || tiempo=="") {
+        alert("llene todos los campos")
+    }
+    else {
     switch (tiempo) {
         //en este case realizaremos el calculo si el tiempo corresponde a un año
         case '1':
@@ -58,6 +61,7 @@ function simulador() {
     contPost.classList.remove('disabled')
     contPre.classList.add('disabled')
 
+}
 }
 
 
