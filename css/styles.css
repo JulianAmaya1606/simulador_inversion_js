@@ -187,3 +187,38 @@ input::placeholder {
 .notificacion h5 span{
     font-weight: 700;
 }
+footer {
+  background: linear-gradient(90deg, #3264c9, #12235e); 
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  border-top: 2px solid #0ff; /* línea neón */
+}
+
+footer h2 {
+  color: #b9bdcc;
+  margin: 0;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 0 0 6px rgba(185, 189, 204, 0.4); /* leve brillo */
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+footer a:hover {
+  color: #0ff; /* efecto neón al pasar */
+  text-shadow: 0 0 8px #0ff;
+}
+
+footer p {
+  margin: 5px 0 0;
+  font-size: 13px;
+  color: #aaa; /* un poco más visible que #888 */
+  font-family: 'Poppins', sans-serif;
+}
+
