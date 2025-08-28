@@ -1,4 +1,6 @@
 function simulador() {
+    const contPre = document.getElementById('pre_simulation') 
+    const contPost =document.getElementById('post-simulation')
     //declaramos las variables de los valores de los campos del formulario
     let nombresApellidos = document.getElementById('nombreApellido').value
     let telefono = document.getElementById('telefono').value
@@ -20,6 +22,9 @@ function simulador() {
         alert("llene todos los campos")
     }
     else {
+    contPost.classList.remove('disabled')
+    contPre.classList.add('disabled')
+
     switch (tiempo) {
         //en este case realizaremos el calculo si el tiempo corresponde a un año
         case '1':
@@ -55,11 +60,8 @@ function simulador() {
 
     
 
-    const contPre = document.getElementById('pre_simulation') 
-    const contPost =document.getElementById('post-simulation')
 
-    contPost.classList.remove('disabled')
-    contPre.classList.add('disabled')
+
 
 }
 }
